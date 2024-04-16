@@ -12,7 +12,7 @@
 
 </body>
 <Header>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg" data-bs-theme="dark" >
       <div class="container-fluid">
         <a class="navbar-brand" href="index.html">D'Vine Xhibit</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -36,12 +36,21 @@
           </ul>
           <form class="d-flex" role="search">
             <input class="form-control me-2" type="Product" placeholder="Product" aria-label="Product">
-            <button class="btn btn-outline-success" type="Shop">Shop</button>
+            <button class="btn btn-outline-light" type="Shop">Shop</button>
   </Header>
               <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                <label for="exampleFormControlInput1" class="form-label">Email Address</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">  
+                <label for="exampleFormControlInput1" class="form-label">Re-enter Email Address</label>
                 <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
               </div>
+              <label for="exampleFormControlInput1" class="form-label">How Did You Hear About Us?</label>
+              <select class="form-select" aria-label="Default select example">
+                <option selected>Select</option>
+                <option value="1">Radio</option>
+                <option value="2">Social Media (Twitter, Facebook, etc.)</option>
+                <option value="3">Search Engine (Google, Bing, etc.)</option>
+              </select>
               <label for="inputPassword5" class="form-label">Password</label>
 <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
 <div id="passwordHelpBlock" class="form-text">
